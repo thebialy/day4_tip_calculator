@@ -1,9 +1,11 @@
-let total = document.getElementById('btn');
+let btn = document.getElementById('btn');
 
-btn.addEventListener('click', () => {
-    const billAmount = document.getElementById('check-total')
-    const tipPercent = document.getElementById('tip-percentage').value;
+btn.addEventListener('click', function(){
+    let billAmount = document.getElementById('bill-amount').value;
+    let tipPercentage = document.getElementById('tip-percentage').value;
 
-    const tipAmount = document.getElementById('tip-amount').value = billAmount / tipPercent;
+    
+    let tipAmount = document.getElementById('tip-amount').value = billAmount / tipPercentage;
     document.getElementById('total-bill').value = parseFloat(billAmount) + parseFloat(tipAmount);
+
 })
