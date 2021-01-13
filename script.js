@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
     let tipPercentage = document.getElementById('tip-percentage').value;
 
     
-    let tipAmount = document.getElementById('tip-amount').value = billAmount / tipPercentage;
+    let tipAmount = document.getElementById('tip-amount').value = Math.round(billAmount / tipPercentage);
     document.getElementById('total-bill').value = parseFloat(billAmount) + parseFloat(tipAmount);
 
 })
