@@ -43,20 +43,21 @@ body{
 }
 
 .input-container input{ 
-  border:0;
-  border-bottom:1px solid #555;  
-  background:transparent;
-  width:100%;
-  padding:8px 0 5px 0;
-  font-size:16px;
-  color:#F8FFDD;
+  	border:0;
+  	border-bottom:1px solid #555;  
+  	background:transparent;
+  	width:100%;
+  	padding:8px 0 5px 0;
+  	font-size:16px;
+  	color:#F8FFDD;
 }
 
 .input-container input:focus{ 
- border:none;	
- outline:none;
- border-bottom:1px solid #e74c3c;	
+ 	border:none;	
+ 	outline:none;
+ 	border-bottom:1px solid #e74c3c;	
 }
+
 #btn{
 	color:#fff;
 	background-color:#e74c3c;
