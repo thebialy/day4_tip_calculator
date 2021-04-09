@@ -32,6 +32,7 @@ body{
 	position:relative;
 	margin-bottom:25px;
 }
+
 .input-container label{
 	position:absolute;
 	top:0px;
@@ -40,6 +41,7 @@ body{
 	color: #C27043;	
 	transition: all 0.5s ease-in-out;
 }
+
 .input-container input{ 
   border:0;
   border-bottom:1px solid #555;  
@@ -49,6 +51,7 @@ body{
   font-size:16px;
   color:#F8FFDD;
 }
+
 .input-container input:focus{ 
  border:none;	
  outline:none;
