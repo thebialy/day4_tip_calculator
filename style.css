@@ -58,7 +58,7 @@ body{
  	border-bottom:1px solid #e74c3c;	
 }
 
-#btn{
+.btn{
 	color:#fff;
 	background-color:#e74c3c;
 	outline: none;
